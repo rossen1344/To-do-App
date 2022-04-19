@@ -32,8 +32,8 @@ function displayTodo() {
     todoArray.forEach((list, index) => {
         htmlCode += `<div>
             <p>${list}</p>
-            <button onclick='edit(${index})'>Edit</button>
-            <button onclick='deleteTodo(${index})'>Delete</button>
+            <button onclick='edit(${index})' type="button" class="btn btn-outline-danger">Edit</button>
+            <button onclick='deleteTodo(${index})' type="button" class="btn btn-outline-warning">Delete</button>
         </div>`;
     });
     listBox.innerHTML = htmlCode;
