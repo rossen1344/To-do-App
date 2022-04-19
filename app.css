@@ -1,3 +1,15 @@
 h1 {
-    
+    color: #00D5FF;
+    text-align: center;
+}
+
+.header {
+    justify-content:space-around;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    background-color: azure;
+}
+
+label {
+    color: #9c1f77;
 }

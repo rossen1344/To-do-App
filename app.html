@@ -10,16 +10,17 @@
     <link rel="stylesheet" href="app.js">
 </head>
 <body>
-    <div>
+    <div class="header">
         <div>
             <h1>
                 T0 DO App
             </h1>
-            <div>
-                <input name="text" id="text" placeholder="Add Todo" />
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Adding Tasks</label>
+                <input type="text" class="form-control" name="text" id="text" placeholder="Add Todo" />
                 <input type="hidden" id="saveIndex" />
-                <button id='add-task-btn'>Add</button>
-                <button style="display: none" id="save-todo-btn">Edit Todo</button>
+                <button type="button" class="btn btn-outline-info" id='add-task-btn'>Add</button>
+                <button type="button" class="btn btn-outline-danger" style="display: none" id="save-todo-btn">Edit Todo</button>
             </div>
         </div>
         <div id="listBox"></div>
